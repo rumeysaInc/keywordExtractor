@@ -1,0 +1,75 @@
+main {
+  display: flex;
+}
+
+router-outlet[name="primary"] {
+  margin-right: 0%;
+  margin-left: 3%;
+}
+
+.container-fluid {
+  background-color: #1c2023; /* Arkaplan rengi */
+  margin-bottom: 5px;
+  width: 100%;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.navbar {
+  height: 80px;
+  margin-bottom: 1%;
+  margin: 0;
+  padding: 0;
+  font-size: large;
+}
+
+.navbar-logo {
+  height: 80px; /* İstediğiniz boyutu buraya girin */
+  width: auto;
+}
+
+.nav-item {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.navbar-nav .nav-link {
+  color: #ff904c; /* home, link ve hesabım simgesinin renkleri */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0097b2; /* Mouse hover rengi */
+}
+
+.dropdown-menu {
+  background-color: #1c2023; /* Dropdown menü arka plan rengi */
+}
+
+.dropdown-item {
+  color: #ff904c; /*#ff914d; /* Dropdown öğe renkleri */
+}
+
+.dropdown-item:hover {
+  background-color: #0097b2; /* Mouse hover arka plan rengi */
+}
+
+.dropdown-toggle {
+  margin-left: auto; /* En sağa itmek için */
+}
+
+.navbar-nav .nav-link.disabled {
+  color: #2d3236; /* Devre dışı bağlantı rengi */
+}
+
+.btn {
+  background-color: #ff904c;
+  border: #ff904c;
+  color: white;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #ff904c;
+  border: 5px solid #ff904c;
+}

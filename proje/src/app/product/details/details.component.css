@@ -1,0 +1,16 @@
+/* detail-dialog.component.css */
+h1 {
+    margin-bottom: 20px;
+  }
+  
+  div[mat-dialog-content] {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  div[mat-dialog-actions] {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,46 @@
+.home {
+    text-align: center;
+    margin-top: 0; /* Yukarıdan boşluk kaldırmak için 0 olarak ayarlayın */
+    background-image: url("/assets/arkaplan2.png"); /* /assets/arkaplan2.png */
+    background-size: cover; /* Resmi container'a uygun şekilde boyutlandırır */
+    background-position: center; /* Resmi container'ın ortasına yerleştirir */
+    height: 100vh; /* Ekran yüksekliği kadar bir alan kaplar */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* İçeriği yatayda da ortalar */
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #0097b2;
+}
+
+p {
+    margin-bottom: 10px; /* satır aralığı verir */
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 18px;
+}
+
+.btn {
+    background-color: rgba(255, 255, 255, 0.2); /* Arka plan rengini hafif şeffaf yap */
+    backdrop-filter: blur(5px); /* Blur efekti uygula */
+    color: white;  /* Yazı rengi */
+    border: 5px solid #0097b2;     /* Çerçeve rengi ve kalınlığı */
+    padding: 10px 15px;        /* İç boşluklar */
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* margin-right: 10px; */
+    margin-top: 15px; /* Butonun üstündeki boşluğu ayarlamak için bir kenar boşluğu ekleyin */
+    width: 300px;
+}
+
+.btn:hover {
+    background-color: #0097b2;
+}
+

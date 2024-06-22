@@ -1,0 +1,27 @@
+<div class="body">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="category-container mb-3">
+        <app-category (categorySelected)="onCategorySelected($event)"></app-category>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div class="container-fluid mb-3 search">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+            (input)="filterDocuments($event)">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+      <div class="document-grid">
+        <div *ngFor="let document of filteredProducts" class="document-item">
+          <div class="card-body">
+            <h5 class="card-title">{{ document.title }}</h5>
+            <p class="card-text">{{ document.content?.substring(0, 100) }}...</p>
+            <button class="btn btn-sm btn-outline-primary" (click)="openDialog(document)">Detayları Gör</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

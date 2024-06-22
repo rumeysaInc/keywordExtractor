@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.signup {
+  text-align: center;
+  margin-top: 0;
+  background-image: url("/assets/arkaplan2.png"); /* /assets/arkaplan7.jpg */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+margin-right: auto;
+margin-left: auto;
+  color: white;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 25px;
+  width: 340px;
+  font-size: large;
+  justify-content: center;
+  width: 100%;
+}
+
+.form-control {
+  width: 340px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+padding: 12px 15px;
+font-size: 16px; 
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+width: 340px;
+background-color: transparent; /* Butonun iç rengi */
+color: white;  /* Yazı rengi */
+border: 5px solid #0097b2;     /* Çerçeve rengi ve kalınlığı */
+}
+
+.btn:hover {
+background-color: #0097b2;
+}
+
+.login-text {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.login-text a {
+  color: #ff904c;
+  text-decoration: none;
+}
+
+.login-text a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

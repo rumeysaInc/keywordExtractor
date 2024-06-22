@@ -1,0 +1,90 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+app-nav {
+    margin-bottom: 0;
+    display: block;
+    width: 100%;
+}
+
+body {
+    background-color: #1c2023; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; /* İki sütun arasındaki boşluk */
+    align-items: flex-start;
+    padding: 20px;
+    width: 100%;
+    max-width: 1800px; /* Sayfanın genişliğini sınırlamak için */
+    color: white;
+    margin: 0 auto; /* Ortalamak için */
+    background-color: #1c2023;
+}
+
+.container > div {
+    padding: 20px;
+    background-color: #2c3033;
+    width: 100%;
+}
+
+h2 {
+    color: #edce8a;
+    margin-top: 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+.form-check {
+    margin-right: 20px;
+}
+
+.form-control {
+    border: 1px solid #1c2023;
+}
+
+.form-group label {
+    color: #edce8a;
+} 
+
+.form-group textarea {
+    border: 1px solid;
+    padding: 5px;
+}
+
+.btn, .btn2 {
+    padding: 12px 15px;
+    font-size: 15px; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #0097b2;
+    border: 5px solid #0097b2;
+    margin-top: 20px;
+}
+
+.btn:hover, .btn2:hover {
+    background-color: white;
+    color: #0097b2;
+}

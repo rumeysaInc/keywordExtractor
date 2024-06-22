@@ -1,0 +1,14 @@
+{
+    "document": [
+      { "id": 1, "title": "Haber", "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla doloremque minus deleniti minima ratione, aspernatur adipisci quod culpa, et provident nihil vitae autem itaque nisi consequuntur ea sint. Eligendi quasi, quisquam consequatur modi, reprehenderit facere in laboriosam necessitatibus neque autem expedita ex numquam eius dolorem tenetur officia dolor asperiores. Et.", "categoryId":1},
+      { "id": 2, "title": "Haber", "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla doloremque minus deleniti minima ratione, aspernatur adipisci quod culpa, et provident nihil vitae autem itaque nisi consequuntur ea sint. Eligendi quasi, quisquam consequatur modi, reprehenderit facere in laboriosam necessitatibus neque autem expedita ex numquam eius dolorem tenetur officia dolor asperiores. Et.", "categoryId":1},
+      { "id": 3, "title": "Bilim", "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla doloremque minus deleniti minima ratione, aspernatur adipisci quod culpa, et provident nihil vitae autem itaque nisi consequuntur ea sint. Eligendi quasi, quisquam consequatur modi, reprehenderit facere in laboriosam necessitatibus neque autem expedita ex numquam eius dolorem tenetur officia dolor asperiores. Et.", "categoryId":2},
+      { "id": 4, "title": "Bilim", "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla doloremque minus deleniti minima ratione, aspernatur adipisci quod culpa, et provident nihil vitae autem itaque nisi consequuntur ea sint. Eligendi quasi, quisquam consequatur modi, reprehenderit facere in laboriosam necessitatibus neque autem expedita ex numquam eius dolorem tenetur officia dolor asperiores. Et.", "categoryId":2}
+
+    ],
+    "categories": [
+      { "id": 1, "name": "Haber"},
+      { "id": 2, "name": "Bilim"}
+    ]
+  }
+  

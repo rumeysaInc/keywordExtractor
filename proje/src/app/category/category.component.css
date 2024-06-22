@@ -1,0 +1,32 @@
+/* styles.css */
+
+.category-container {
+  width: 300px; /* Örnek bir genişlik değeri, istediğiniz değere göre ayarlayabilirsiniz */
+  height: 100%; /* Örnek bir yükseklik değeri, istediğiniz değere göre ayarlayabilirsiniz */
+  /* background-image: url("/assets/6.png"); */
+  
+}
+
+.list-group {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px; /* Liste grubunun maksimum genişliği */
+  margin: 20px;
+}
+
+.list-group-item {
+  background-color: #1c2023; /* Öğe arkaplan rengi */
+  color: white; /* Öğe metin rengi */
+  border: none; /* Kenarlık olmaması */
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.list-group-item.active {
+  background-color: #ff914d; /* Aktif öğe arkaplan rengi */
+  color: white; /* Aktif öğe metin rengi */
+}
+
+.list-group-item:hover {
+  background-color: #0097b2; /* Mouse üzerine gelindiğinde arkaplan rengi */
+}

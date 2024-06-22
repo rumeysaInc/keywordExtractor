@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Automatic Keyword Extractor</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body class="body">
+  <header>
+    <!-- Navigasyon içeriği -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a href="index.html"> <!-- Bu linki kendi anasayfanızın URL'si ile değiştirin -->
+          <img src="assets/logo.jpg" alt="Site Logo" class="navbar-logo">
+        </a>
+        <!-- <a class="navbar-brand" href="#">AUTOMATIC KEYWORD EXTRACTOR</a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Ana Sayfa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#" (click)="dokumanAra($event)">Gezinme</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" (click)="dokumanYukle($event)">Doküman Yükleme</a>
+            </li>
+            <div>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  <i class="fas fa-user"></i> <!-- Hesabım yazısı yerine simge -->
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#" >Hesabım</a></li>
+                  <li><a class="dropdown-item" href="#">Çıkış Yap</a></li>
+                </ul>
+              </li>
+            </div>
+          </ul>
+        </div>
+        <div>
+          <button (click)="ucretsizDene()" class="btn btn-primary">Ücretsiz Dene</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <router-outlet name="primary"></router-outlet>
+  </main>
+</body>
+
+</html>
